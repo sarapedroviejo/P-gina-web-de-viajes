@@ -43,6 +43,37 @@
                 <a class="btn btn-primary btn-xl text-uppercase" href="#Compañías">Saber más</a>
             </div>
         </header>
+        <!--plane-->
+        <head>
+        <meta charset="utf-8">
+        <style>
+            #plane {
+                position: absolute;
+                left: 0px;
+            }
+        </style>
+    </head>
+    <body>
+    <div>
+        <!-- Cat walking GIF from: http://www.anniemation.com/clip_art/graphics.html -->
+        <img id="plane" src="http://gifimgs.com/res/1221/61ccdc57ee052354507074.gif">
+    </div>
+    
+  <script>
+  var planeEl = document.getElementById("plane");
+  
+  var startTime = new Date().getTime();
+  var airplane = function() {
+      var currTime = new Date().getTime();
+      var secondsElapsed = ((currTime - startTime)/1000);
+      var newLeft = secondsElapsed * 100;
+      planeEl.style.left = newLeft + "px"; 
+      window.requestAnimationFrame(airplane);
+};
+  airplane();
+  </script>
+
+    </body>
         <!-- Compañías-->
         <section class="page-section" id="Compañías">
             <div class="container">
