@@ -4,4 +4,6 @@ En esta tarea del curso TIC 2021/2022 he tenido que crear una página web en Git
 
 Este repositorio que he creado para mi página web trata sobre una página web de viajes que he titulado "Viaja sin límites". En ella te muestro las compañías con las que puedes viajar, a donde puedes viajar, que objetos debes llevar y nuestro equipo, con el que puedes contactar en el apartado de contacto. Además, en esta tarea incluyo los tres recursos js qe se piden.
 
-Por aquí os dejo el enlace a mi página web:
+En cuanto al estilo, me he basado un poco en la página web titulada: "El CO2 en el cambio climático". Por ejemplo en la entrada a la página web al darle al botón para que baje  al siguiente apartado. Pero tampoco me he inspirado mucho ya que me pareció bastante complicada y tampoco la quería plagiar.
+
+Por aquí os dejo el enlace a mi página web: https://sarapedroviejo.github.io/P-gina-web-de-viajes/
