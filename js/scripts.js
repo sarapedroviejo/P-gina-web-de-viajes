@@ -1,23 +1,5 @@
-/*!
-* Start Bootstrap - Agency v7.0.10 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-//
 // Scripts
 // 
-  var planeEl = document.getElementById("plane");
-  
-  var startTime = new Date().getTime();
-  var airplane = function() {
-      var currTime = new Date().getTime();
-      var secondsElapsed = ((currTime - startTime)/1000);
-      var newLeft = secondsElapsed * 100;
-      planeEl.style.left = newLeft + "px"; 
-      window.requestAnimationFrame(airplane);
-};
-  airplane();
-
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
