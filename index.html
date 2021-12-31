@@ -70,6 +70,24 @@
       window.requestAnimationFrame(airplane);
 };
   airplane();
+      document.getElementById('plane')
+        .addEventListener('click', () => {
+        
+          // Cuando se disparé el click, mostrará el cargando.
+          document.getElementById('lbl').innerText = "Cargando..."
+          
+          // Pasado tres segundos lo ocultará
+          setTimeout(/* aquí va la función */
+            function (){
+              // Esto se ejecutará transcurrido el tiempo indicado
+              document.getElementById('lbl').innerText = ""
+            },
+            3000 // Tiempo de espera en milisegundos
+            )
+        })
+<button id="trigger">Click me!</button>
+<label id="lbl"></label>
+      
   </script>
 
         <!-- Compañías-->
